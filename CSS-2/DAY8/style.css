@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+.head{
+    background-color: white;
+}
+.first{
+    margin-left: 200px;
+    margin-bottom: 30px;
+    
+}
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+   
+}
+/* pointer-event:none so u can not download the images */
+.brand{
+    color: red;
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.searching{
+    width: 200px;
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 10px;
+    height: 20px;
+}
+.dining{
+    margin-left: 200px;
+}
+button{
+    height: 40px;
+    width: 70px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    color: grey;
+}
+.immg{
+    height: 50px;
+    width: 50px;
+}
+.dine{
+    position: relative;
+    bottom: 15px;
+    margin-left: 15px;
+    color: grey;
+}
+.deliviry{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.third{
+    height: 300px;
+    margin-left: 200px;
+    margin-top:10px ;
+}
+.third h2{
+    margin-bottom: 20px;
+}
+.third>p{
+color: grey;
+}
+.ca{
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+}
+.imgg{
+    height:250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+.ins{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+}
+
+
+.card {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    border: 10px solid rgb(237, 238, 240);
+    border-radius: 20px;
+
+}
+
+.card:hover {
+    background-color: white;
+    border-color: white;
+}
+
+.Box {
+    display: inline-block;
+}
+
+.off {
+    font-size: 20px;
+    color: white;
+    background-color: rgba( 218,43,16,0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.image{
+    position: relative;   
+}
+.img {
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.rest {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.restName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rating {
+    background-color: darkgreen;
+    color: white;
+    height: 20px;
+    padding: 4px;
+    position: absolute;
+    right: 5px;
+    border-radius: 5px;
+}
+
+.info {
+    position: relative;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.price {
+    position: absolute;
+    right: 5px;
+}
+
+.loc {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+}
+
+.lc {
+    position: absolute;
+    right: 5px;
+}
+

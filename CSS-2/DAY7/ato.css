@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 70px;
+}
+.box:hover{
+    padding: 10px;
+ background-color: rgb(230, 230, 228);
+ border-radius: 6px;
+ height: auto;
+ width: 330px;
+ box-shadow: 1px solid black;
+}
+#img1
+{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.head
+{
+   display: flex;
+   /* align-items: center; Optional, to vertically align items */
+   gap: 80px; /* Optional, to add space between items */
+  
+}
+.head p{
+    margin-top: 5px;
+    font-size: large;
+}
+.pp{
+    height: 25px;
+    width: 35px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    padding: 3px 3px;
+    border-radius: 4px;
+}
+.headd
+{ margin-top: 10px;
+    display: flex;
+   gap: 70px; /* Optional, to add space between items */
+   color: grey;
+}
+.headdd
+{
+    margin-top: 10px;
+    display: flex;
+   gap: 40px; /* Optional, to add space between items */
+   font-size: small;
+}
+.headdd p{
+    color: grey;
+    font-size: small;
+}

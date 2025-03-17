@@ -1,0 +1,21 @@
+*
+{
+    background-color: black;
+    color: aquamarine;
+}
+/* select by attribute */
+li[draggable="true"]{
+    color: blueviolet;
+}
+body>h1{
+    color: beige;
+}
+
+/* descendent */
+section p{
+    color: rgb(255, 231, 231);
+}
+/* select by child */
+section >p{
+    color: blue;
+}

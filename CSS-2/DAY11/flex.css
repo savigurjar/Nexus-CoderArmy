@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    background-color: grey;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+.box1{
+    background-color: blueviolet;
+    /* flex-grow: 1; */
+    flex: 2 2 200px;
+  
+}
+.box2{
+    background-color: rgb(226, 43, 52);
+
+}
+.box3{
+    background-color: rgb(226, 208, 43);
+    order: -1; 
+    /* //sbse aage chle jayega */
+}
+.box4{
+    background-color: rgb(43, 226, 52);
+}
+.box5{
+    background-color: rgb(43, 220, 226);
+}
+/* media query for responsive */
+/* desktop */
+@media(max-width:300px){
+    .box1{
+        background-color: black;
+    }
+}
+    
+
+/* tablet */
+/* mobile */

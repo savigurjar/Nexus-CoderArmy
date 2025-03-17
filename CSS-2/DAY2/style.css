@@ -1,0 +1,8 @@
+p{
+    color: hsl(293, 74%, 42%);
+}
+/* rgba  a - transparency - alpha */
+/* pixels size determine by your device size */
+/* em relative to parent font size */
+/* rem relative to html font size */
+/* % relative to parent font size */

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(hsl(287, 12%, 70%),hsl(235, 16%, 84%));
+}
+.watch{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+}
+h1{
+margin-top: 30px;
+font-size: 2.5rem;
+
+}
+h1:hover{
+    color: white;
+}
+.stopwatch{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+.buttons{
+    margin-top: 30px;
+     gap: 3rem;
+    font-weight: bold;
+
+}
+
+#start, #stop, #reset {
+    height: 50px;
+    width: 70px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    margin-right: 22px;
+}
+#reset {
+    margin-right: 0; /* Removes extra margin from last button */
+}
+
+#start:hover, #stop:hover, #reset:hover {
+    background-color: black;
+    color: white;
+}
+#result
+{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+

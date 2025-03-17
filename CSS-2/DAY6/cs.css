@@ -1,0 +1,23 @@
+/* .tan{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    overflow: scroll; 
+   
+} */
+/* by default overflow will be visible */
+
+.img1{
+    height: 200px;
+    width: auto;
+    float: left;
+   
+     
+}
+.img2{
+    height: 200px;
+    width: auto;
+    float: left;
+    clear: left;
+     
+}

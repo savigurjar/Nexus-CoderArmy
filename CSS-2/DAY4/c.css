@@ -1,0 +1,25 @@
+/* .cc{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 50px;
+    background-color: blueviolet;
+}
+.ok{
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+} */
+
+.container{
+    background-color: red;
+    height: 22vh;
+    width: 22vw;
+    border-radius: 50%;
+    margin:auto;
+    /* horizontal wise center kr deta h -> auto  */
+    margin-top:40vh;
+
+}

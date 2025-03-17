@@ -1,0 +1,33 @@
+.container{
+    /* height: 500px;
+    width: 500px; */
+    display: flex;
+    background-color: burlywood;
+}
+/* @media(max-width:500px){
+   .container{
+    background-color: cadetblue;
+   
+    height: 200px;
+    width: 200px;
+   }
+} */
+.box{
+  
+    background-color: rgb(100, 143, 128);
+    height: 300px;
+    width: 300px;
+    border:1px solid blueviolet;
+    margin: 30px;
+}
+/* mobile */
+@media (max-width:500px)
+{
+    .container{
+        flex-direction: column;
+    }
+}
+/* tablet */
+@media (min-width:600px) and (max-width:100px){
+    
+}
