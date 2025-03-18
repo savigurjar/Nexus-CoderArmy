@@ -20,7 +20,7 @@ export default function Header() {
 
       <div className="profile">
         <button className="pro">Acount</button>
-        <button className="pro">Wishlist</button>
+        <button className="pro">❤Wishlist</button>
         <button className="pro">Cart</button>
       </div>
     </div>

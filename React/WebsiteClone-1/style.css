@@ -7,12 +7,13 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: rgb(143, 143, 165);
+    background-color: #ECECEC;
 }
+
 .header {
     height: 70px;
     width: 100%;
-    background-color: rgb(190, 190, 211);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
     align-items: center;
@@ -39,9 +40,10 @@ body{
     outline: none; /* Removes the default blue outline */
     border-radius: 5px;
 }
-.search:focus {
+/* .search:focus {
     border: none; /* Removes the border on focus */
-}
+/* } */
+ 
 .pro{
     margin-right: 30px;
     font-size: 20px;
@@ -51,4 +53,18 @@ body{
 .mimg{
     
     object-fit: cover;
+}
+.middle{
+    display: flex;
+}
+.card-btn{
+    background: none;   
+    border: none;
+    margin-left: 20px;
+}
+.cardimg{
+    height: 150px;
+    object-fit: cover;
+    border-radius: 19px;
+    outline: none;
 }
