@@ -7,15 +7,48 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: rgb(6, 6, 56);
+    background-color: rgb(143, 143, 165);
 }
 .header {
     height: 70px;
     width: 100%;
-    background-color: rgb(5, 5, 32);
+    background-color: rgb(190, 190, 211);
     text-align: center;
-    color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between ;
+   
+}
+.images{
+    position: relative;
+    left: 50px;
+}
+.option{
+    margin-left: 70px;
+}
+.btn{
+    
+    margin-right: 30px;
+    font-size: 20px;
+    border: none;
+    background: none;   
+}
+.search{
+    width: 400px;
+    height: 30px;
+    outline: none; /* Removes the default blue outline */
+    border-radius: 5px;
+}
+.search:focus {
+    border: none; /* Removes the border on focus */
+}
+.pro{
+    margin-right: 30px;
+    font-size: 20px;
+    border: none;
+    background: none;   
+}
+.mimg{
+    
+    object-fit: cover;
 }
