@@ -42,3 +42,5 @@ V.mp4
 tsconfig.json
 node_modules/
 package-lock.json
+.parcel-cache
+dist
