@@ -57,11 +57,9 @@ body{
     object-fit: cover;
     margin-top: 65px;
 }
-.cbtn{
-    margin-left: 34px;
-}
 
 .card-btn{
+    margin-left: 40px;
     background: none;   
     border: none;
     margin-top: 30px;
@@ -123,7 +121,7 @@ body{
 #hbtn {
     transition: all 0.3s ease-in-out;
 }
-.gcard-btn,.hcard-btn{
+.gcard-btn,.hcard-btn,.mcard-btn{
     margin-left:50px;
     border: none; /*Remove any border*/
     background: transparent; /* Ensure no background color */
@@ -136,7 +134,7 @@ body{
     outline: none;  
 }
 .of{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
     text-align: left;
     color: rgb(37, 35, 35);
@@ -148,15 +146,75 @@ body{
     text-align: left;
     color: rgb(156, 155, 155);
 }
-.hcardimg{
+.hcardimg,.mcardimg{
     height: auto;   
 }
-.ph2{
+
+.ph2,.ph3,.ph4{
     color: rgb(156, 155, 155);
-    margin-bottom: 10px ;
     font-size: 15px;
     font-weight: 540;
 }
-.h2p{
-    margin-top: 15px ;  
+.h2p,.h3p,.h4p{
+    margin-top: 10px ; 
+    font-size: 20px; 
 }
+#sty{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(179, 190, 187);
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#sty:hover {
+    background-color: rgb(150, 170, 165);
+    cursor: pointer;
+}
+#sty:active {
+    transform: scale(0.95);
+}
+#sty {
+    transition: all 0.3s ease-in-out;
+}
+
+.ms-img{
+    
+    object-fit: cover;
+    margin-top: 40px;
+}
+.msimg{
+    
+    object-fit: cover;
+    margin-top: 20px;
+}
+.mpara{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.fcard-btn{
+    margin-left: 40px;
+    background: none;   
+    border: none;    
+}
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color: pink;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
