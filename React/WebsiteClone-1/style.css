@@ -55,6 +55,7 @@ body{
 .mimg{
     
     object-fit: cover;
+    margin-top: 65px;
 }
 .cbtn{
     margin-left: 34px;
@@ -84,7 +85,7 @@ body{
     border-radius: 15px;   
 }
 .trend{
-    color: rgb(22, 21, 21);
+    color: rgb(156, 155, 155);
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -148,6 +149,14 @@ body{
     color: rgb(156, 155, 155);
 }
 .hcardimg{
-    height: auto;
-    
+    height: auto;   
+}
+.ph2{
+    color: rgb(156, 155, 155);
+    margin-bottom: 10px ;
+    font-size: 15px;
+    font-weight: 540;
+}
+.h2p{
+    margin-top: 15px ;  
 }
