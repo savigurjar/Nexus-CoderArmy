@@ -1,6 +1,6 @@
 function Card({ image, cardnu, name }) {
   return (
-    <div>
+    <div className="cbtn">
       <button className="card-btn">
         <img className="cardimg" src={image} alt={cardnu} />
         {/* {name} */}
@@ -18,5 +18,27 @@ function Bcard({ cimg, cnu, offer }) {
     </div>
   );
 }
+function Gcard({gimg,gnu}){
+return (
+  <div>
+    <button className="gcard-btn">
+      <img className="gcardimg" src={gimg} alt={gnu}/>
+    </button>
+  </div>
+)
+}
 
-export { Card, Bcard };
+function Hcard({himg,hnu,ofr,pr}){
+  return(
+    <div>
+      <button className="hcard-btn">
+        <img className="hcardimg" src={himg} alt={hnu}/>
+        <p className="of">{ofr}</p>
+        <p className="hpara">{pr}</p>
+      </button>
+    </div>
+  )
+
+}
+
+export { Card, Bcard ,Gcard,Hcard};

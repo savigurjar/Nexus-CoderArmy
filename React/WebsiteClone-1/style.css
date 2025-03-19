@@ -19,6 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-between ;
+    position: fixed;
    
 }
 .images{
@@ -55,12 +56,15 @@ body{
     
     object-fit: cover;
 }
+.cbtn{
+    margin-left: 34px;
+}
 
 .card-btn{
     background: none;   
     border: none;
-    margin-left: 20px;
     margin-top: 30px;
+    
 }
 .cardimg{
     height: 150px;
@@ -72,7 +76,7 @@ body{
     margin-top: 20px;
     background: none;   
     border: none;
-    margin-left: 30px;
+    margin-left: 55px;
 }
 .bcardimg{
     height: auto;
@@ -89,4 +93,61 @@ body{
 .para{
     font-size: 20px;
     font-weight: 700;
+}
+.hbb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hbtn{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(179, 190, 187);
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+#hbtn:hover {
+    background-color: rgb(150, 170, 165);
+    cursor: pointer;
+}
+#hbtn:active {
+    transform: scale(0.95);
+}
+#hbtn {
+    transition: all 0.3s ease-in-out;
+}
+.gcard-btn,.hcard-btn{
+    margin-left:50px;
+    border: none; /*Remove any border*/
+    background: transparent; /* Ensure no background color */
+}
+.gcardimg{
+    height: auto;
+    width: 400px;
+    object-fit: cover;
+    border: none;
+    outline: none;  
+}
+.of{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(37, 35, 35);
+}
+.hpara{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(156, 155, 155);
+}
+.hcardimg{
+    height: auto;
+    
 }
