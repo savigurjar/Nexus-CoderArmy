@@ -1,13 +1,28 @@
-function Card({ image, cardnu, name }) {
+import React, { useState, useEffect } from "react";
+
+
+const Card = React.memo(function Card({ image, cardnu, name }) {
+  const colors = ["red", "blue", "green"];
+  const [colorIndex, setColorIndex] = useState(0); // Track current color index
+
+  useEffect(() => {
+    document.body.style.backgroundColor = colors[colorIndex]; // Change background color
+  }, [colorIndex]); // Runs when colorIndex changes
+
+  function handleClick() {
+    setColorIndex((prevIndex) => (prevIndex + 1) % colors.length); // Cycle through colors
+  }
+
   return (
     <div className="cbtn">
-      <button className="card-btn">
+      <button className="card-btn" onClick={handleClick}>
         <img className="cardimg" src={image} alt={cardnu} />
         {/* {name} */}
       </button>
     </div>
   );
-}
+})
+
 function Bcard({ cimg, cnu, offer }) {
   return (
     <div>
@@ -61,4 +76,4 @@ function Fcard({ fimg, fnu, fpr }) {
   );
 }
 
-export { Card, Bcard, Gcard, Hcard, Mcard ,Fcard};
+export { Card, Bcard, Gcard, Hcard, Mcard, Fcard };

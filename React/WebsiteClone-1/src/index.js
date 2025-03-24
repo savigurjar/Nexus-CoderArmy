@@ -26,6 +26,7 @@ function App() {
       <Header />
       <Main />
 
+   
       <div
         className="middle"
         style={{
@@ -91,7 +92,9 @@ function App() {
           <Gcard key={ind} gimg={value.gimg} gnu={value.gnu} />
         ))}
       </div>
+      
       <Mast />
+
       <div className="hhead" style={{ marginLeft: "50px", marginTop: "40px" }}>
         <p className="ph2">IN THE SPOTLIGHT</p>
         <div className="hb" style={{ display: "flex" }}>
