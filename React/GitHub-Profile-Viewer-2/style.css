@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #0a0a2a; /* Deep blue background */
+    color: white;
+}
+
+/* Header Section */
+.heading {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #03032b, #090977);
+    color: #d3d3d3;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+/* Heading Style */
+h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+/* Profiles Container */
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Profile Image */
+img {
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Image Hover Effect */
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Profile Cards */
+.cards {
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px 15px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card Hover Effect */
+.cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.3);
+}
+
+/* Input Field */
+.input {
+    margin-left: 30vw;
+   margin-top: 20px;
+    width: 320px;
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Hover */
+.input:hover, .input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Button Styling */
+button {
+    height: 40px;
+    background: linear-gradient(135deg, #03032b, #090977);
+    margin-left: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.4);
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: linear-gradient(135deg, #090977, #03032b);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+/* Button Link */
+button > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .heading{
+        margin-left: 10vw;
+    }
+    .input {
+        margin-left: 10vw;
+        width: 80%;
+    }
+    
+    .profiles {
+        flex-direction: column;
+        margin-left: 1vw;
+    }
+    
+    .cards {
+        width: 80%;
+    }
+    button{
+        margin-left: 10vw;
+        margin-top: 20px;
+    }
+}
